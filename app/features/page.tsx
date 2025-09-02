@@ -1,5 +1,5 @@
 import React from 'react';
-import { Workflow, ShieldCheck, Rocket, Layers, LineChart, Cpu, Database, Users } from 'lucide-react';
+import { Workflow, ShieldCheck, Layers, LineChart, Cpu, Users } from 'lucide-react';
 
 // Professional restructured features page with timeline, metrics band, narrative, technical specs columns & side CTA
 export default function FeaturesPage(){

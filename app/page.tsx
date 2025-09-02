@@ -5,7 +5,6 @@ import Advantage from './components/Advantage';
 import Metrics from './components/Metrics';
 import Testimonials from './components/Testimonials';
 import FinalCTA from './components/FinalCTA';
-import Footer from './components/Footer';
 
 export default function Home() {
   return (
@@ -66,8 +65,7 @@ export default function Home() {
       <Advantage />
       <Metrics />
       <Testimonials />
-      <FinalCTA />
-      
+  <FinalCTA />
     </>
   );
 }

@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function DownloadPage() {
   return (
     <main className="min-h-screen bg-neutral-950 text-white">
@@ -11,8 +13,8 @@ export default function DownloadPage() {
             {/* Phone Mock */}
             <div className="relative lg:col-span-5 flex justify-center order-last lg:order-first">
               <div className="relative w-72 h-[34rem] [perspective:1200px]">
-                <div className="absolute flex items-center justify-center inset-0 rounded-[3rem] border border-white/10 bg-[#003366]/5 backdrop-blur-xl shadow-[0_0_0_1px_rgba(255,255,255,0.04)] rotate-[13deg] hover:rotate-[9deg] transition-transform duration-700 ease-out origin-bottom-left overflow-hidden group">
-                  <img src="/logo.png" alt="App Mobile" className="w-50 h-auto opacity-90 mix-blend-screen" />
+                <div className="absolute flex items-center justify-center inset-0 rounded-[3rem] border border-white/10 bg-[#003366]/5 backdrop-blur-xl shadow-[0_0_0_1px_rgba(255,255,255,0.04)] rotate-[13deg] hover:rotate-[9deg] transition-transform duration-700 ease-out origin-bottom-left overflow-hidden group relative">
+                  <Image src="/logo.png" alt="App Mobile" fill className="object-contain opacity-90 mix-blend-screen" />
                   <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_20%,#003366_0%,transparent_60%)]" />
                   <div className="absolute bottom-0 left-0 right-0 p-8 bg-gradient-to-t from-[#003366]/70 to-transparent">
                     <p className="text-sm font-medium tracking-wide">Real-time Secure DealFlow</p>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Shield, Lock, KeyRound, Activity, Layers, Server, Globe2, RefreshCcw } from 'lucide-react';
+import { Shield, Lock, KeyRound, Activity, Server, RefreshCcw } from 'lucide-react';
 
 export default function SecurityPage(){
   const layers = [
