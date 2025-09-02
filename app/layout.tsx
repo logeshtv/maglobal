@@ -11,6 +11,11 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "The M&A Global Platform | Secure M&A DealRoom App",
   description: "Access confidential business listings, manage due diligence, and communicate securely with the M&A Global Platform. Download our app for qualified buyers and sellers.",
+  icons: {
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
+  },
 };
 
 import Navbar from "./components/Navbar";

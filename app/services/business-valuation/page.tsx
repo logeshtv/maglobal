@@ -1,4 +1,10 @@
 import React from 'react';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Business Valuation Intelligence | The M&A Global Platform',
+  description: 'Decision-grade valuation: data normalization, KPI forensics, multiple benchmarks, scenario modelling and board narrative alignment.'
+};
 
 const faqs = [
   { q: 'What valuation methodologies are applied?', a: 'Comparable companies, precedent transactions, DCF variants, contribution margin analytics and scenario-driven sensitivity matrices.' },

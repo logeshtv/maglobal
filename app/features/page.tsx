@@ -1,4 +1,5 @@
 import React from 'react';
+import type { Metadata } from 'next';
 import { Workflow, ShieldCheck, Layers, LineChart, Cpu, Users } from 'lucide-react';
 
 // Professional restructured features page with timeline, metrics band, narrative, technical specs columns & side CTA

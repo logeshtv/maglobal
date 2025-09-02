@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import TrustBar from './components/TrustBar';
 import CoreServices from './components/CoreServices';
 import HowItWorks from './components/HowItWorks';
@@ -5,6 +6,11 @@ import Advantage from './components/Advantage';
 import Metrics from './components/Metrics';
 import Testimonials from './components/Testimonials';
 import FinalCTA from './components/FinalCTA';
+
+export const metadata: Metadata = {
+  title: 'The M&A Global Platform | Secure M&A Deal Execution Infrastructure',
+  description: 'Enterprise-grade platform for confidential deal flow, diligence orchestration, valuation analytics and secure collaboration across the full M&A lifecycle.'
+};
 
 export default function Home() {
   return (

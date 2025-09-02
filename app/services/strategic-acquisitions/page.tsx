@@ -1,4 +1,10 @@
 import React from 'react';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Strategic Acquisitions Advisory | The M&A Global Platform',
+  description: 'End-to-end strategic acquisitions support: thesis calibration, pipeline intelligence, diligence orchestration and integration readiness.'
+};
 
 const faqs = [
   {

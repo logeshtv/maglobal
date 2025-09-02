@@ -1,4 +1,10 @@
 import React from 'react';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'FAQ | The M&A Global Platform',
+  description: 'Answers to common questions about platform access, security, onboarding, integrations and pricing for The M&A Global Platform.'
+};
 
 const faqs = [
   { q: 'Who is the platform built for?', a: 'Strategic buyers, financial sponsors, corporate development teams and founders pursuing disciplined M&A.' },

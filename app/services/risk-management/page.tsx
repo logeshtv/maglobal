@@ -1,4 +1,10 @@
 import React from 'react';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Risk Management Frameworks | The M&A Global Platform',
+  description: 'Holistic risk governance: taxonomy design, exposure quantification, control architecture, monitoring and incident response.'
+};
 
 const faqs = [
   { q: 'Scope of risk coverage?', a: 'Strategic, financial, operational, compliance, cyber, third‑party and market exposure domains.' },

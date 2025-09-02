@@ -1,4 +1,10 @@
 import React from 'react';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Investment Advisory | The M&A Global Platform',
+  description: 'Data-driven investment advisory: portfolio strategy, opportunity evaluation, risk framing and value creation planning.'
+};
 
 const faqs = [
   { q: 'What is investment advisory?', a: 'Expert guidance to construct, monitor and optimize capital allocation aligned to risk tolerance, liquidity needs and strategic objectives.' },

@@ -1,4 +1,10 @@
 import React from 'react';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Portfolio Management Oversight | The M&A Global Platform',
+  description: 'Active portfolio value creation: KPI architecture, governance cadence, performance analytics and exit readiness planning.'
+};
 
 const faqs = [
   { q: 'Do you manage active portfolios?', a: 'We orchestrate strategic oversight and optimization; execution can integrate internal or external managers.' },

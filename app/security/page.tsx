@@ -1,4 +1,10 @@
 import React from 'react';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Security & Compliance | The M&A Global Platform',
+  description: 'Zero-trust architecture, encryption, monitoring and compliance automation securing institutional M&A workflows end to end.'
+};
 import { Shield, Lock, KeyRound, Activity, Server, RefreshCcw } from 'lucide-react';
 
 export default function SecurityPage(){

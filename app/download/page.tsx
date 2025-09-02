@@ -1,4 +1,10 @@
+import type { Metadata } from 'next';
 import Image from 'next/image';
+
+export const metadata: Metadata = {
+  title: 'Download App | The M&A Global Platform Mobile',
+  description: 'Install our secure mobile app for real-time diligence, encrypted collaboration, biometric MFA and offline-ready M&A workflow access.'
+};
 
 export default function DownloadPage() {
   return (

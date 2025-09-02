@@ -1,4 +1,10 @@
 import React from 'react';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Capital Raising Support | The M&A Global Platform',
+  description: 'Structured capital process execution: narrative positioning, investor mapping, data room readiness and closing momentum.'
+};
 
 const faqs = [
   { q: 'What capital solutions do you support?', a: 'Equity, growth capital, structured debt, recapitalizations and select alternative instruments.' },
